@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+**/venv/
+**/lib/
+**/bin/
+**/include/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.env
+
+# Data files
+**/data/raw/
+**/data/processed/
+*.csv
+*.json
+*.parquet
+*.sqlite
+*.db
+
+# Models
+**/models/
+*.pt
+*.h5
+*.bin
+
+# Logs
+**/logs/
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
